@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Form Pendaftaran SMK Telkom Malang</string>
+    <string-array name="Asal_Kota">
+        <item>Asal Kota</item>
+        <item>Malang</item>
+        <item>Surabaya</item>
+        <item>Jakarta</item>
+        <item>Mojokerto</item>
+        <item>Jogjakarta</item>
+        <item>Tulungagung</item>
+    </string-array>
 </resources>

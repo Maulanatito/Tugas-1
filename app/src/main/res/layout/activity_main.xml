@@ -92,7 +92,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_toStartOf="@+id/rg_gender"
-        android:layout_toLeftOf="@+id/rg_gender" />
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -144,5 +145,23 @@
         android:layout_alignLeft="@+id/rb_male"
         android:layout_alignStart="@+id/rb_male" />
     </RadioGroup>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:spinnerMode="dropdown"
+        android:entries="@array/Asal_Kota"
+        android:layout_below="@+id/imageView"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/button"
+        android:layout_below="@+id/checkBox3"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
