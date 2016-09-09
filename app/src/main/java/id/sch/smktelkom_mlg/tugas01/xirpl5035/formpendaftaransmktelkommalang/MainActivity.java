@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (hsl2.length() == startlen) hsl2 += "Belum Pernah Memilih";
 
-                tvHasil.setText("Nama Depan :\n" + Nama + "\n\nTahun : \n" + Tahun + "\n\nJenis Kelamim : \n" + hsl1 + "\n\n Asal Kota : \n" + Asal + "\n\n" + hsl2);
+                tvHasil.setText("Nama :\n" + Nama + "\n\nTahun : \n" + Tahun + "\n\nJenis Kelamim : \n" + hsl1 + "\n\n Asal Kota : \n" + Asal + "\n\n" + hsl2);
             }
         });
 
