@@ -144,9 +144,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Female"
-        android:layout_below="@+id/rb_female"
-        android:layout_alignLeft="@+id/rb_female"
-        android:layout_alignStart="@+id/rb_female"
+        android:layout_below="@+id/rb_male"
+        android:layout_alignLeft="@+id/rb_male"
+        android:layout_alignStart="@+id/rb_male"
         android:checked="false" />
     </RadioGroup>
 
